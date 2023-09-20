@@ -1,0 +1,28 @@
+.all-dates {
+    display: flex;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.timezone-input {
+    width: 100%;
+    padding: 8px;
+}
+
+.date-of-today {
+    padding: 15px;
+    font-weight: 700;
+}
+
+.select-time-div {
+    margin: 0px 5px 0px 5px;
+}
+
+.full-dates {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.check-times {
+    width: 100%;
+}
