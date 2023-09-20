@@ -9,13 +9,9 @@ export const DateProvider = ({ children }) => {
 
     const initialState = {
         indTimeZone: false,
-        timesToShow: [],
-        timeZoneInput: "",
     }
     const [dateState, dispatch] = useReducer(reducerFunction, initialState);
 
-    console.log(dateState.indTimeZone);
-    console.log(dateState.timesToShow);
 
     return (
         <DateContext.Provider value={{ dateState, dispatch }}>{children}</DateContext.Provider>

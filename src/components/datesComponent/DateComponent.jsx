@@ -38,8 +38,8 @@ function DateComponent() {
                 <fieldset>
                     <legend>Timezone:</legend>
                     <select name="timezone" id="timezone" className='timezone-input' onChange={timeZoneInputHandler}>
-                        <option value="UTC-(Universal Time Coordinated)">UTC-(Universal Time Coordinated)</option>
                         <option value="IST-(Indian Standard Time)">IST-(Indian Standard Time)</option>
+                        <option value="UTC-(Universal Time Coordinated)">UTC-(Universal Time Coordinated)</option>
                     </select>
                 </fieldset>
             </div>
